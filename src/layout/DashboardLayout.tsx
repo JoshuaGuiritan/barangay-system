@@ -11,7 +11,6 @@ function DashboardLayout() {
                 className="drawer-toggle"
               />
               <div className="drawer-content">
-                {/* Page content here */}
                 <label
                   htmlFor="my-drawer-1"
                   className="btn btn-ghost drawer-button btn-square"
