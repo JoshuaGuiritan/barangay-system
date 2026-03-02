@@ -1,4 +1,4 @@
-import LoginForm from "../../components/LoginCard";
+import LoginForm from "./components/LoginCard";
 import CopyrightNotice from "../../components/CopyrightNotice";
 
 function LoginPage() {
