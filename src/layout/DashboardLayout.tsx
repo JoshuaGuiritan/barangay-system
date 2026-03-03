@@ -14,7 +14,7 @@ function DashboardLayout() {
             <Outlet />
           </div>
         </div>
-        {/* Copyright Noti */}
+        {/* Copyright Notice */}
         <CopyrightNotice />
       </div>
     </>
