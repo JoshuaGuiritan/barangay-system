@@ -32,6 +32,24 @@ function DashboardLayout() {
         <div className="relative flex-1 flex items-center justify-center">
           <Outlet />
         </div>
+        {/* Copyright Notice */}
+        <CopyrightNotice />
+        <div className="navbar bg-base-100 h-19 shrink-0" />
+        <div className="relative flex-1 flex items-center justify-center">
+          <Outlet />
+        </div>
+        <div className="navbar bg-base-100 h-19 shrink-0" />
+        <div className="relative flex-1 flex items-center justify-center">
+          <Outlet />
+        </div>
+        <div className="navbar bg-base-100 h-19 shrink-0" />
+        <div className="relative flex-1 flex items-center justify-center">
+          <Outlet />
+        </div>
+        <div className="navbar bg-base-100 h-19 shrink-0" />
+        <div className="relative flex-1 flex items-center justify-center">
+          <Outlet />
+        </div>
       </div>
       <div className="h-full w-full flex flex-col bg-base-200">
         <div className="navbar bg-base-100 h-19 shrink-0" />
