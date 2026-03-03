@@ -5,6 +5,7 @@ function DashboardLayout() {
         <div className="fixed top-0 w-full z-10 navbar bg-base-100 shadow-sm">
           <div className="navbar-start">
             <div className="drawer">
+              <div>Hello</div>
               <input
                 id="my-drawer-1"
                 type="checkbox"
