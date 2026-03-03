@@ -1,4 +1,5 @@
-import LoginForm from "../../components/LoginCard";
+import LoginForm from "./components/LoginCard";
+import CopyrightNotice from "../../components/CopyrightNotice";
 
 function LoginPage() {
   return (
@@ -10,7 +11,7 @@ function LoginPage() {
         style={{ backgroundImage: "url(/barangay.jpg)" }}
       >
         <div className="absolute w-full h-full bg-black/45"></div>
-        {/* Barangay Seal (Top Left) */}
+        {/* Barangay Seal */}
         <a
           href="https://www.facebook.com/p/Sangguniang-Barangay-of-Talisayan-61554184720883/"
           className="fixed z-20 top-5 left-7 flex gap-3"
@@ -18,12 +19,10 @@ function LoginPage() {
         >
           <img src="/barangay-seal.png" className="size-16" />
         </a>
-        {/* Login Form Component (Center) */}
+        {/* Login Form Component */}
         <LoginForm />
-        {/* Copyright Notice (Bottom Center) */}
-        <div className="fixed x-5 bottom-1 text-xs text-white font-semibold left-1/2 -translate-x-1/2 w-full text-center z-20">
-          © 2026 Joshua Guiritan. All rights reserved.
-        </div>
+        {/* Copyright Notice */}
+        <CopyrightNotice />
       </div>
     </>
   );
