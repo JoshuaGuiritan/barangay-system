@@ -6,7 +6,7 @@ function DashboardLayout() {
   return (
     <>
       <div className="relative h-screen w-screen flex" data-theme="dark">
-        {/* Navigation */}
+        {/* Navigation Main*/}
         <NavBar />
         <div className="h-full w-full flex flex-col bg-base-200">
           <div className="navbar bg-base-100 h-19 shrink-0" />
