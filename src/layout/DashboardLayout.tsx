@@ -5,12 +5,15 @@ import CopyrightNotice from "../components/CopyrightNotice";
 function DashboardLayout() {
   return (
     <>
-      <div className="relative h-screen w-screen flex" data-theme="dark">
+      <div
+        className="relative bg-base-200 min-h-screen w-full flex"
+        data-theme="dark"
+      >
         {/* Navigation Main */}
         <NavBar />
         <div className="h-full w-full flex flex-col bg-base-200">
-          <div className="navbar bg-base-100 h-19 shrink-0" />
-          <div className="relative flex-1 flex items-center justify-center">
+          <div className="navbar h-19 shrink-0" />
+          <div className="flex-1 p-10">
             <Outlet />
           </div>
         </div>
