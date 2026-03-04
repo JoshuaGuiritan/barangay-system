@@ -9,7 +9,7 @@ function CalendarCard() {
       {/* Permanent Solid Accent Top Bar */}
       <div className="h-1 w-full bg-primary"></div>
 
-      <div className="card-body p-8">
+      <div className="card-body">
         {/* Ignore the Typescript error! */}
         {/* @ts-ignore */}
         <calendar-date
