@@ -58,10 +58,10 @@ function NavBar() {
                         <a href="/">Home</a>
                       </li>
                       <li className="font-normal">
-                        <a>Registration</a>
+                        <a>Pending Request</a>
                       </li>
                       <li className="font-normal">
-                        <a>Status Updates</a>
+                        <a>Appointment Scheduling</a>
                       </li>
                       <li className="font-normal">
                         <a>Emails</a>
@@ -79,7 +79,10 @@ function NavBar() {
         {/* Center Section */}
         <div className="navbar-center">
           {/* Barangay Seal */}
-          <a href="https://www.facebook.com/p/Sangguniang-Barangay-of-Talisayan-61554184720883/">
+          <a
+            href="https://www.facebook.com/p/Sangguniang-Barangay-of-Talisayan-61554184720883/"
+            target="_blank"
+          >
             <img src="/barangay-seal.png" className="size-15" />
           </a>
         </div>
