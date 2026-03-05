@@ -1,6 +1,8 @@
 import StatisticCards from "./components/StatisticCards";
 import RainForcastCard from "./components/RainForcastCard";
 import CalendarCard from "./components/CalendarCard";
+import ToDoCard from "./components/ToDoCard";
+import ShortcutCard from "./components/ShortcutCard";
 
 function HomePage() {
   return (
@@ -9,9 +11,11 @@ function HomePage() {
         <div className="col-span-1 lg:col-span-2 flex flex-col gap-5">
           <StatisticCards />
           <RainForcastCard />
+          <ToDoCard />
         </div>
         <div className="col-span-1">
           <CalendarCard />
+          <ShortcutCard />
         </div>
       </div>
     </>

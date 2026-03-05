@@ -36,11 +36,11 @@ function NavBar() {
                 className="drawer-overlay"
               ></label>
               {/* Sidebar Section */}
-              <ul className="menu menu-md bg-base-300 font-semibold min-h-full w-80 p-4">
+              <ul className="menu menu-md bg-base-100 font-semibold min-h-full w-80 p-4">
                 {/* Profile Information Section */}
                 <div className="p-3 pb-8 flex gap-4 items-center">
                   <div className="avatar">
-                    <div className="ring-primary ring-offset-base-100 w-13 rounded-full ring-2 ring-offset-2">
+                    <div className="ring-success ring-offset-base-100 w-13 rounded-full ring-2 ring-offset-2">
                       <img src="https://img.daisyui.com/images/profile/demo/spiderperson@192.webp" />
                     </div>
                   </div>
