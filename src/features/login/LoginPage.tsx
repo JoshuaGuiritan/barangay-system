@@ -7,7 +7,7 @@ function LoginPage() {
       {/* Container w/ Barangay Image*/}
       <div
         className="relative w-full h-screen flex justify-center items-center bg-cover bg-center p-5"
-        data-theme="dark"
+        data-theme="corporate"
         style={{ backgroundImage: "url(/barangay.jpg)" }}
       >
         <div className="absolute w-full h-full bg-black/45"></div>

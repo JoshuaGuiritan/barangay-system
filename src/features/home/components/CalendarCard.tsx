@@ -7,7 +7,7 @@ function CalendarCard() {
   return (
     <div className="card w-full bg-base-100 border border-base-200 shadow-sm overflow-hidden">
       {/* Permanent Solid Accent Top Bar */}
-      <div className="h-1 w-full bg-primary"></div>
+      <div className="h-1 w-full bg-info"></div>
 
       <div className="card-body">
         {/* Ignore the Typescript error! */}

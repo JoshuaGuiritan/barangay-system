@@ -5,7 +5,7 @@ function RainForcastCard() {
   const windyUrl: string = `https://embed.windy.com/embed.html?type=forecast&location=coordinates&lat=${lat}&lon=${lon}&detailLat=${lat}&detailLon=${lon}&metricRain=mm&metricTemp=%C&metricWind=km/h`;
 
   return (
-    <div className="card w-full bg-base-100 shadow-xl border border-base-content/10 overflow-hidden">
+    <div className="card w-full bg-base-100 shadow-sm border border-base-content/10 overflow-hidden">
       {/* Card Header */}
       <div className="px-4 py-3 border-b border-base-content/5 bg-base-200/50 flex items-center justify-between">
         <div className="flex items-center gap-2">
